@@ -38,6 +38,9 @@
   </Class>
   <Class Name="MVPdemo.Program">
     <Position X="0.5" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="Program" Hidden="true" />
+    </Members>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>

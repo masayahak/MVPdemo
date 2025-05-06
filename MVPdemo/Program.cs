@@ -6,6 +6,11 @@ namespace MVPdemo
 {
     internal static class Program
     {
+        static Program()
+        {
+            throw new System.NotImplementedException();
+        }
+
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
