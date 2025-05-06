@@ -143,6 +143,7 @@ namespace MVPdemo.Presenters
         {
             CleanViewFields();
         }
+
         private void Delete利用者(object? sender, EventArgs e)
         {
             if (_bindingSource利用者.Current is not 利用者Model current) return;

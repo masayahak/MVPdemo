@@ -6,7 +6,7 @@ namespace MVPdemo.Repositories
     public interface I利用者Repository
     {
         IEnumerable<利用者Model> GetAll();
-        IEnumerable<利用者Model> GetBySearch(string SearchKey);
+
         bool Add(利用者Model user);
         bool Edit(利用者Model user);
         bool Delete(利用者Model user);
@@ -26,14 +26,6 @@ namespace MVPdemo.Repositories
 
         // ユーザー一覧を取得
         public IEnumerable<利用者Model> GetAll() => _users;
-
-        // IDや名称でユーザー一覧を取得
-        public IEnumerable<利用者Model> GetBySearch(string SearchKey)
-        {
-            if (string.IsNullOrEmpty(SearchKey))
-                return _users;
-            return _users.Where(u => u.ID.ToString().Contains(SearchKey) || u.利用者名.Contains(SearchKey));
-        }
 
         // 追加
         public bool Add(利用者Model user)
