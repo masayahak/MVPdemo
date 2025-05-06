@@ -16,7 +16,7 @@ namespace MVPdemo
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            IView利用者 view = new 利用者View();
+            I利用者View view = new 利用者View();
             I利用者Repository repo = new 利用者Repository();
             
             _ = new 利用者Presenter(view, repo);

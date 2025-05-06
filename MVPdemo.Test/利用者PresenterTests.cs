@@ -14,7 +14,7 @@ namespace MVPdemo.Test
         [TestMethod]
         public void LoadAll利用者_初期表示で全件取得される()
         {
-            var mockView = new Mock<IView利用者>();
+            var mockView = new Mock<I利用者View>();
             var mockRepo = new Mock<I利用者Repository>();
 
             // --------------------------------------------------------------------
@@ -52,7 +52,7 @@ namespace MVPdemo.Test
         [TestMethod]
         public void AddNew利用者_追加操作で初期化される()
         {
-            var mockView = new Mock<IView利用者>();
+            var mockView = new Mock<I利用者View>();
             var mockRepo = new Mock<I利用者Repository>();
 
             mockView.Setup(v => v.Set利用者ListBindingSource(It.IsAny<BindingSource>()));
@@ -73,7 +73,7 @@ namespace MVPdemo.Test
         [TestMethod]
         public void Save利用者_新規登録に成功すると成功メッセージが設定される()
         {
-            var mockView = new Mock<IView利用者>();
+            var mockView = new Mock<I利用者View>();
             var mockRepo = new Mock<I利用者Repository>();
 
             // Viewから入力されたデータ
@@ -100,7 +100,7 @@ namespace MVPdemo.Test
         [TestMethod]
         public void Save利用者_修正に成功すると成功メッセージが設定される()
         {
-            var mockView = new Mock<IView利用者>();
+            var mockView = new Mock<I利用者View>();
             var mockRepo = new Mock<I利用者Repository>();
 
             mockView.Setup(v => v.IsEdit).Returns(true);
@@ -126,7 +126,7 @@ namespace MVPdemo.Test
         [TestMethod]
         public void Delete利用者_削除成功で成功メッセージが設定される()
         {
-            var mockView = new Mock<IView利用者>();
+            var mockView = new Mock<I利用者View>();
             var mockRepo = new Mock<I利用者Repository>();
 
             var dummyUser = new 利用者Model { ID = 10, 利用者名 = "削除対象", Version = 1 };

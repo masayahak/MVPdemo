@@ -1,6 +1,6 @@
 namespace MVPdemo.Views
 {
-    public interface IView利用者
+    public interface I利用者View
     {
         // 列
         string ID { get; set; }
@@ -25,7 +25,7 @@ namespace MVPdemo.Views
         void Show();
     }
 
-    public partial class 利用者View : Form, IView利用者
+    public partial class 利用者View : Form, I利用者View
     {
         private bool _isEdit;
         private bool _isSuccessful;

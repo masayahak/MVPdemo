@@ -7,13 +7,13 @@ namespace MVPdemo.Presenters
     public class 利用者Presenter
     {
         //Fields
-        private readonly IView利用者 _view;
+        private readonly I利用者View _view;
         private readonly I利用者Repository _repository;
         private readonly BindingSource _bindingSource利用者;
         private IEnumerable<利用者Model> _利用者List;
 
         //コンストラクタ
-        public 利用者Presenter(IView利用者 view, I利用者Repository repository)
+        public 利用者Presenter(I利用者View view, I利用者Repository repository)
         {
             this._bindingSource利用者 = new BindingSource();
             this._view = view;

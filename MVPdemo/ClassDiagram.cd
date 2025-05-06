@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MVPdemo.Models.利用者Model">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgABAAAAAAAAABAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Models\利用者Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVPdemo.Presenters.利用者Presenter">
+    <Position X="4.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAgADAAAAAAgAAAAAACAAAAAAAAGIAAgAAAAA=</HashCode>
+      <FileName>Presenters\利用者Presenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVPdemo.Repositories.利用者Repository" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAEAAIACAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\利用者Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVPdemo.Views.利用者View" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>oAAAAAABACAIqBJgIADQgBICBAAJEEAgEAIAKQQSCAA=</HashCode>
+      <FileName>Views\利用者View.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVPdemo.Program">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MVPdemo.Repositories.I利用者Repository">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAEAAAACAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\利用者Repository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVPdemo.Views.I利用者View">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAIgABgIAAAgAIABAAMAAAgAAAAIAAAAAA=</HashCode>
+      <FileName>Views\利用者View.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>
