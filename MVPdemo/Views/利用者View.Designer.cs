@@ -1,4 +1,4 @@
-﻿namespace MVPdemo
+﻿namespace MVPdemo.Views
 {
     partial class 利用者View
     {

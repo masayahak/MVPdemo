@@ -1,4 +1,4 @@
-namespace MVPdemo
+namespace MVPdemo.Views
 {
     public interface IView—˜—pŽÒ
     {
