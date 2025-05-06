@@ -18,10 +18,7 @@ namespace MVPdemo.Models
         [DataType(DataType.Date, ErrorMessage = "誕生日は日付を入力してください。")]
         public DateTime 誕生日 { get; set; }
 
-        // 履いた管理用バージョン管理
         [Required]
         public int Version { get; set; }
-
-
     }
 }
